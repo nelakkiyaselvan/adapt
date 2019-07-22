@@ -8,7 +8,7 @@ Tech Stack:
 HTML, CSS, jQuery, Javascript.
 
 Installation & Execution:
-1.Extract adapt.zip 
+1.Pull the code from "https://github.com/nelakkiyaselvan/adapt".
 2.Place the "adapt" folder in htdocs folder of xampp or any apache server such that the path resolves to "/htdocs/adapt/index.html"
 3.Open the link "//localhost/adapt" in browser
 4.Load this page in any view such as Desktop, Tablet and Mobile.
