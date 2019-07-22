@@ -1,0 +1,689 @@
+body {
+    margin: 0;
+    font-family:Roboto;
+}
+
+body.showMask {
+    overflow: hidden;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+.mobileMenuIcon, .mobileMenu {
+    display: none;
+}
+
+.logo_adapt {
+    float: left;
+    width: 150px;
+    margin: 1em 50px;
+}
+
+.logo_adapt img {
+    width: 100%;
+}
+
+ul.hdrMenu {
+    float: right;
+    padding: 0 40px;
+}
+
+ul.hdrMenu li a:hover{
+    border: 2px solid #000;
+    opacity: 1;
+}
+ul.hdrMenu li {
+    display: inline-flex;
+}
+
+ul.hdrMenu li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+nav {height: 100%;}
+
+ul.hdrMenu li.rqst-demo a {
+    background: #2176b7;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.brandLogo {
+    width: 70px;
+    float: left;
+}
+
+.brandLogo img {
+    width: 100%;
+}
+
+.wrapper {
+    background-color: #FAFAFA;
+    padding: 40px 0;
+}
+
+.wrapper ul {
+    list-style: none;
+}
+
+.brandWrapper {
+    margin: 0px 80px 20px;
+    background: #FFFFFF;
+    overflow: hidden;
+    border-radius: 20px;
+    color: #515151;
+}
+
+.brand {
+    width: 60%;
+    float: left;
+}
+
+h2.brandName {
+    float: left;
+    margin-left: 10px;
+    width: 90%;
+    word-break: break-word;
+}
+
+.brandContact {
+    float: left;
+}
+
+.brandHdr {
+    float: left;
+    width: 100%;
+    margin: 30px 0 0 30px;
+}
+
+.brandContact li {
+    display: grid;
+    margin: 30px 0;
+    opacity: 0.7;
+}
+
+.brandContact li span {
+    margin: 2px 0;
+}
+
+.locationLogo:before {
+    content: ' \2707';
+    margin-right: 10px;
+}
+
+.phoneLogo:before {
+    content: ' \2706';
+    margin-right: 10px;
+}
+
+a.brandSiteA {
+    text-decoration: none;
+    color: inherit;
+}
+
+span.brndListValue {
+    font-weight: 600;
+}
+
+.brandDetail {
+    float: left;
+    margin-left: 70px;
+}
+
+.adDemoCont {
+    width: 40%;
+    float: left;
+}
+
+.adDemoPopup {
+    border-radius: 5px;
+    margin: 50px 0;
+    width: 300px;
+    float: left;
+    box-shadow: 0px 0px 10px #BBB;
+}
+
+p.adaptDesc {
+    float: left;
+    padding: 0px 56px;
+    text-align: center;
+}
+
+.adDemoPopup .logo_adapt {
+    margin: 1em 50%;
+    transform: translateX(-50%);
+}
+
+.adaptDemo {
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.adaptDemo a {
+    padding: 10px 20;
+    background: #5eb531;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2c581f;
+    font-weight: 600;
+}
+
+p.monetaryDesc {
+    margin-left: 60px;
+    margin-right: 30px;
+    float: left;
+    font-size: 14px;
+}
+
+.monetaryHeader {
+    width: 100%;
+    margin-left: 60px;
+    float: left;
+}
+
+.monetaryHeader > div {
+    width: 30%;
+    float: left;
+}
+
+.monetaryHeader > div h2 {
+    text-transform: uppercase;
+}
+
+.monetaryHeader > div span {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #9e9b9b;
+}
+
+h3.contactTitle {
+    text-transform: capitalize;
+    margin: 50px 80px 30px;
+    color: #515151;
+}
+
+.gridContainer {
+    width: calc(100% - 110px);
+    margin-left: 80px;
+    color: #515151;
+    overflow: hidden;
+}
+
+.gridList {
+    width: 30%;
+    background: #FFFFFF;
+    padding: 5px 0;
+    border-radius: 10px;
+    float: left;
+    margin: 1% 2% 1% 0;
+    display: grid;
+}
+
+.gridList ul {
+    padding: 0 15px;
+    text-transform: capitalize;
+    float: left;
+}
+
+li.memberName {
+    color: #1e73be;
+    font-weight: bold;
+}
+
+.gridList li {
+    line-height: 40px;
+    width: 90%;
+    word-break: break-word;
+}
+
+li.memberRole {
+    border-bottom: 1px solid #c1bcbc;
+    padding-bottom: 10px;
+    line-height: unset;
+    font-size: medium;
+    padding-bottom: 60px;
+    height: -webkit-fill-available;
+}
+
+li.memberDept {
+    margin-top: 10px;
+}
+
+li.memberEmail {
+    text-transform: lowercase;
+}
+
+.gridList li:nth-child(1n + 3) {
+    color: #9e9b9b;
+}
+
+.getContact span {
+    padding: 10px 20;
+    background: #95da71;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #578649;
+    font-weight: 600;
+}
+
+.getContact {
+    float: left;
+    padding: 0 15px 30px;
+}
+
+.gridDetails {
+    float: left;
+}
+
+.loadContacts {
+    float: left;
+    width: 100%;
+    width: calc(100% - 6%);
+    margin: 20px 0;
+}
+
+.loadContacts h3 {
+    text-align: center;
+    padding: 10px 20px;
+    background: #f1eded;
+    border-radius: 20px;
+    color: grey;
+    width: fit-content;
+    font-weight: unset;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.deptChart {
+    height: 300px;
+    margin: 30px;
+    border: 1px solid #c1bcbc;
+    border-top: none;
+    border-right: none;
+    width: 70%;
+    float: left;
+    margin-right: 0;
+}
+
+.deptChart > div {
+    width: 50px;
+    background: #6facd0;
+    height: 100%;
+    float: left;
+    margin: 0 2%;
+    position: relative;
+}
+
+.progressBox {
+    height: 70%;
+    position: absolute;
+    width: 50px;
+    background: #ffffff;
+}
+
+.sales .progressBox {
+    height: 40%;
+}
+
+.marketing .progressBox {
+    height: 20%;
+}
+
+.engineering .progressBox {
+    height: 60%;
+}
+
+.itis .progressBox {
+    height: 80%;
+}
+
+.operations .progressBox {
+    height: 48%;
+}
+
+.finance .progressBox {
+    height: 58%;
+}
+
+.other .progressBox {
+    height: 68%;
+}
+
+.progressBox span {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 10px;
+}
+
+.departmentList {
+    width: 25%;
+    float: left;
+    margin: 0px 0;
+}
+
+.departmentList ul {
+    position: absolute;
+    bottom: 10px;
+}
+
+.departmentList ul li {
+    line-height: 30px;
+}
+
+.deptChartCont {
+    position: relative;
+    overflow: hidden;
+}
+
+.departmentList ul li span {
+    margin: 0 10px;
+}
+
+li.companyAddress {
+    line-height: unset;
+    margin: 20px 0;
+}
+
+.brandWrapper.emailPattern ul {
+    padding: 0 30px;
+    float: left;
+}
+
+.brandWrapper.emailPattern li {
+    width: 100%;
+    float: left;
+    line-height: 50px;
+    border-bottom: 1px solid #c1bcbc;
+}
+
+.brandWrapper.emailPattern li:last-child {
+    border-bottom: none;
+}
+
+.brandWrapper.emailPattern li span {
+    width: 32%;
+    float: left;
+    text-align: center;
+    color: #8c8787;
+}
+
+.brandWrapper.emailPattern li.title span {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.brandWrapper.emailPattern li.title span:last-child {
+    float: right;
+}
+
+.brandWrapper.emailPattern li span:first-child {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.getContacts h4 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20;
+    background: #95da71;
+    border-radius: 5px;
+    color: #578649;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+footer li {
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+footer span {
+    float: left;
+    margin-left: 50px;
+}
+
+footer ul {
+    float: right;
+    margin: 0;
+    padding-right: 40px;
+}
+
+footer {
+    height: 30px;
+    padding: 10px 0;
+    line-height: 30px;
+    background: #1a84d4;
+    color: #ffffff;
+}
+
+footer li:after {
+    content: "|";
+    display: table;
+    padding: 0 10px;
+}
+
+footer li:last-child:after  {
+    display:none;
+}
+
+li.memberName:before {
+    position:relative;
+    content: ' \2706';
+    margin-right: 10px;
+    color: #9e9b9b;
+}
+
+@media only screen and (max-width:950px) {
+    .brandWrapper.brandInfo > div {
+        width: 100%;
+    }
+    
+    .adDemoCont .adDemoPopup {
+        margin: 0 110px 30px;
+    }  
+
+    .gridContainer {
+        width: calc(100% - 80px);
+    }
+    
+    .gridList{
+        width: 44%;
+    }
+     
+    .deptChartCont > div {
+        width: 100%;
+    }
+    
+    .departmentList ul {
+        position: relative;
+    }
+    
+    footer span {
+        margin-left: 20px;
+    }
+    
+    footer {
+        font-size: 15px;
+    }
+    
+    footer ul {
+        padding: 0 20px;
+    } 
+}
+
+@media only screen and (max-width:767px) {
+    ul.hdrMenu {
+        display: none;
+    }
+
+    .mobileMenu ul.hdrMenu {
+        display: block;
+    }
+
+    .mobileMenu ul.hdrMenu li {
+        width: 100%;
+    }
+
+    .mobileMenu {
+        height: 200px;
+        width: 60%;
+        position: absolute;
+        z-index: 2;
+        background: #fff;
+        top: 80px;
+        box-shadow: 2px 8px 10px #BBB;
+    }
+
+    .mask {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.5;
+        position: absolute;
+        background: #f1f1f1;
+        top: 80px;
+        display: none;
+    }
+
+    .mobileMenuIcon {
+        width: 50px;
+        float: left;
+        margin: 10px 20px;
+        display: block;
+    }
+
+    .mobileMenuIcon img {
+        width: 100%;
+    }
+
+    .brandWrapper {
+        margin: 0px 20px 20px;
+    }
+    
+    .brandHdr {
+        margin-left: 20px;
+    }
+    
+    .brandDetail {
+        margin-left: 0;
+    }
+    
+    .brandContact {
+        margin-top: 0;
+    }
+    
+    .brandContact li {
+        margin: 20px 0;
+    }
+    
+    .adDemoCont .adDemoPopup {
+        margin: 0 20px 20px;
+    }
+
+    .monetaryHeader {
+        margin-left: 30px;
+    }
+
+    .monetaryHeader > div {
+        width: 80%;
+    }
+    
+    p.monetaryDesc {
+        margin: 2em 30px;
+        font-size: 18px;
+    }
+    
+    h3.contactTitle {
+        margin-left: 30px;
+    }
+    
+    .gridContainer {
+        margin-left: 30px;
+        width: calc(100% - 50px);
+    }
+    
+    .gridList {
+        width: 100%;
+    }
+    
+    .gridList ul {
+        padding: 0 30px;
+    }
+    
+    .getContact {
+        padding-left: 30px;
+    }
+    
+    .loadContacts h3 {
+        width: max-content;
+    }
+    
+    .loadContacts {
+        width: 100%;
+    }
+    
+    .deptChart {
+        margin-left: 20px;
+    }
+    
+    .deptChart > div {
+        width: 9%;
+    }
+    
+    .progressBox {
+        width: 100%;
+    }
+    
+    .progressBox span {
+        margin: 0px;
+    }
+    
+    .brandWrapper.emailPattern li span:last-child {
+        float: right;
+        width: 30%;
+    }
+    
+    .brandWrapper.emailPattern li span {
+        width: 55%;
+        display: inline-table;
+        word-break: break-word;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+    
+    footer {
+        height: 100px;
+    }
+    
+    footer span {
+        margin-left: 30px;
+    }
+    
+    footer ul {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width:767px) and (orientation:landscape) {
+    .adDemoCont .adDemoPopup {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }    
+}
